@@ -27,7 +27,7 @@ const NavBar = () => {
         <Button className="navButtonContent" variant="primary">Create content</Button>
         </Col>
         <Col>
-        <Button className="navButtonCoin" variant="primary"><img className='animated bounce' src="src\assets\icons\akar-icons_coin.svg" alt="coin" /> 20</Button>
+        <Button className="navButtonCoin" variant="primary"><img className='animated bounce' src="akar-icons_coin.svg" alt="coin" /> 20</Button>
         </Col>
         
       </Container>

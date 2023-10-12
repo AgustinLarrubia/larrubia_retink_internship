@@ -11,13 +11,13 @@ const NotificationNav = () => {
     <Navbar className="bg-body-tertiary notificationBar p-0">
   <Container className="notificationBarDesktop p-0" id="notificationBar">
     <Col >
-    <Button className="notificationButton" variant="primary"><img src="src\assets\icons\Calendar.svg" alt="calendar" /></Button>
+    <Button className="notificationButton" variant="primary"><img src="Calendar.svg" alt="calendar" /></Button>
     </Col>
     <Col>
-    <Button className="notificationButton" variant="primary"><img className="bell-icon" src="src\assets\icons\Alert.svg" alt="bell" /></Button>
+    <Button className="notificationButton" variant="primary"><img className="bell-icon" src="Alert.svg" alt="bell" /></Button>
     </Col>
     <Col>
-    <Image className="profilePictureDesktop" src="src\assets\images\cv_photo_redonda.png" thumbnail />
+    <Image className="profilePictureDesktop" src="cv_photo_redonda.png" thumbnail />
     </Col>
   </Container>
 </Navbar>

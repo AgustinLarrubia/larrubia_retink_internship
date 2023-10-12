@@ -25,7 +25,7 @@ const HeyBanner = () => {
           </DropdownButton>
         </Col>
         <Col id="imageContainer" className="d-flex flex-row-reverse">
-          <Image className="profilePicture" src="src\assets\images\cv_photo_redonda.png" thumbnail />
+          <Image className="profilePicture" src="cv_photo_redonda.png" thumbnail />
         </Col>
       </Row>
       <Row>
