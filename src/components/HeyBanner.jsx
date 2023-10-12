@@ -14,7 +14,7 @@ const HeyBanner = () => {
       <Row className="d-flex flex-row">
         <Col>
           <Button className="menuButton" size='sm'>
-            <img src="src\assets\icons\border-all.svg" alt="" />
+            <img src="border-all.svg" alt="" />
           </Button>
         </Col>
         <Col className="dropDownContainer d-flex flex-row justify-content-end">
