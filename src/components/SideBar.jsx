@@ -10,13 +10,13 @@ const SideBar = () => {
   return <Container className="sideBarContainer" fluid style={{ width: "5rem", height: '100%' }}>
     <Col className="d-flex flex-column  p-0 m-0 " style={{ height: '100%' }}>
       <Row className="mb-auto">
-        <a className="mt-3"><Image className="logo" src="./assets/icons/Group 7.svg" thumbnail /></a>
-        <Button className="sideBarButton" variant="primary"><img src="./assets/icons/Shape.svg" alt="Home" /></Button>
-        <Button className="sideBarButton" variant="primary"><img src="./assets/icons/Content View Gallery.svg" alt="Home" /></Button>
+        <a className="mt-3"><Image className="logo" src="./icons/Group 7.svg" thumbnail /></a>
+        <Button className="sideBarButton" variant="primary"><img src="./icons/Shape.svg" alt="Home" /></Button>
+        <Button className="sideBarButton" variant="primary"><img src="./icons/Content View Gallery.svg" alt="Home" /></Button>
       </Row>
       <Row>
-        <Button className="sideBarButton sideBarHome" variant="primary"><img src="./assets/icons/Settings.svg" alt="Home" /></Button>
-        <Button className="sideBarButton sideBarNote" variant="primary"><img src="./assets/icons/Vector.svg" alt="Settings" /></Button>
+        <Button className="sideBarButton sideBarHome" variant="primary"><img src="./icons/Settings.svg" alt="Home" /></Button>
+        <Button className="sideBarButton sideBarNote" variant="primary"><img src="./icons/Vector.svg" alt="Settings" /></Button>
       </Row>
     </Col>
   </Container>;
